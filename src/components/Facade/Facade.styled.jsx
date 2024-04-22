@@ -1,0 +1,16 @@
+import styled from "styled-components";
+
+export const Img = styled.img`
+  width: 600px;
+  height: 350px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  list-style: none;
+  margin: 0;
+`;
