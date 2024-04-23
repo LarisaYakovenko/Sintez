@@ -25,7 +25,7 @@ export const P = styled.p`
   letter-spacing: 0.03em;
 `;
 
-export const Table = styled.p`
+export const Table = styled.div`
   width: 180px;
   border: none;
   background-color: #1b1b1d;
