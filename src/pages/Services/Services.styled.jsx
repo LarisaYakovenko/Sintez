@@ -12,6 +12,17 @@ export const H2 = styled.h2`
   margin-top: 20px;
 `;
 export const Container = styled.div`
+  max-width: 480px;
+  min-height: 100vh;
+  padding: 20px 0;
+  margin: 0 auto;
   background-color: #abd2f1;
-  padding: 20px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 100%;
+  }
 `;

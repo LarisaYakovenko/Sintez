@@ -2,27 +2,50 @@ import styled from 'styled-components';
 import backgroundImage from '../../images/bg-2.png';
 
 export const Container = styled.div`
-  margin-top: -200px;
-  min-height: 1000px;
+  /* margin-top: -200px; */
+  /* min-height: 1000px; */
   /* background-repeat: no-repeat;
-  justify-content: center;
-
-  margin: 0 auto; */
+  justify-content: center; */
+  flex-direction: column;
+  overflow: auto;
+  padding-bottom: 150px;
+  /* margin: 0 auto; */
 
   background-image: url(${backgroundImage});
 `;
 export const P = styled.p`
-  width: 800px;
+  width: 400px;
+  padding: 100px 10px;
+  margin: 0 auto;
 
-  margin-left: auto;
-  padding: 300px 100px 70px;
   display: flex;
+  justify-content: center;
   text-align: center;
 
   color: #fff;
-  font-size: 64px;
+  font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  @media screen and (min-width: 768px) {
+    width: 800px;
+
+    margin-left: auto;
+    padding: 100px 100px 70px;
+    display: flex;
+    text-align: center;
+    font-size: 64px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 800px;
+    margin: 0;
+
+    margin-left: auto;
+    padding: 150px 100px 70px;
+    display: flex;
+    text-align: center;
+    font-size: 64px;
+  }
 `;
 
 export const Table = styled.div`
@@ -31,43 +54,35 @@ export const Table = styled.div`
   background-color: #1b1b1d;
   box-shadow: 0 6px 12px rgba(243, 244, 245, 0.3);
   border-radius: 10px;
-  /* margin-bottom: 120px; */
-  margin-left: auto;
-  margin-right: 100px;
-  padding-top: 10px;
-  /* display: flex; */
-  text-align: center;
 
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding-top: 10px;
+  text-align: center;
   color: #fff;
   font-size: 14px;
-  /* line-height: 1.2;
-  letter-spacing: 0.03em; */
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-left: auto;
+    margin-right: 100px;
+  }
 `;
 export const Schedule = styled.div`
   display: flex;
   padding: 20px;
-  /* text-align: ; */
-
-  /* color: #fff;
-  font-size: 14px; */
-  /* line-height: 1.2;
-  letter-spacing: 0.03em; */
 `;
 export const Time = styled.p`
   display: flex;
   padding: 50px 35px 20px;
-  /* padding-bottom: 10px; */
-  /* justify-content: flex-end; */
-  /* align-items: flex-end; */
 `;
 export const Free = styled.p`
   padding-left: 20px;
-  /* margin-top: auto; */
   padding: 35px;
   padding-bottom: 0;
   display: flex;
-  /* justify-content: flex-end; */
-  /* align-items: flex-end; */
   color: red;
 `;
 export const Li = styled.li`

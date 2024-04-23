@@ -20,19 +20,12 @@
 
 import React, { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
-import {
-  Container,
-  Item,
-  List,
-  StyleNavLink,
-  Section,
-  Logo,
-} from './Layout.styled';
+import { Container, Item, List, StyleNavLink, Logo } from './Layout.styled';
 import logo from '../../images/banner_tr.png';
 
 export const Layout = () => {
   return (
-    <Section>
+    <>
       <Container>
         <Logo>
           <img src={logo} alt="logo" width={400} />
@@ -55,7 +48,7 @@ export const Layout = () => {
       <Suspense>
         <Outlet />
       </Suspense>
-    </Section>
+    </>
   );
 };
 

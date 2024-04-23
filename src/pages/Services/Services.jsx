@@ -14,10 +14,12 @@ import data from '../../../src/components/data.json';
 const Services = () => {
   // console.log(data);
   return (
-    <Container>
-      <H2>наші послуги</H2>
-      <ServisList data={data} />
-    </Container>
+    <>
+      <Container>
+        <H2>наші послуги</H2>
+        <ServisList data={data} />
+      </Container>
+    </>
   );
 };
 

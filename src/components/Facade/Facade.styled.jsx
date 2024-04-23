@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Img = styled.img`
   width: 600px;
-  height: 350px;
+  /* height: 350px; */
   border: none;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
