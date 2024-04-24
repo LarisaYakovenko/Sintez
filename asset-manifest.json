@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/sintez/static/css/main.2aeedd45.css",
-    "main.js": "/sintez/static/js/main.80c7948c.js",
+    "main.js": "/sintez/static/js/main.07468892.js",
     "static/js/485.5a4bd89d.chunk.js": "/sintez/static/js/485.5a4bd89d.chunk.js",
     "static/js/259.37ef7172.chunk.js": "/sintez/static/js/259.37ef7172.chunk.js",
-    "static/js/729.eadf2699.chunk.js": "/sintez/static/js/729.eadf2699.chunk.js",
+    "static/js/729.d037dd51.chunk.js": "/sintez/static/js/729.d037dd51.chunk.js",
     "static/css/377.76e82f11.chunk.css": "/sintez/static/css/377.76e82f11.chunk.css",
-    "static/js/377.f5e727d2.chunk.js": "/sintez/static/js/377.f5e727d2.chunk.js",
+    "static/js/377.e0a63c90.chunk.js": "/sintez/static/js/377.e0a63c90.chunk.js",
     "static/js/123.19d0570e.chunk.js": "/sintez/static/js/123.19d0570e.chunk.js",
     "static/media/bg_2.png": "/sintez/static/media/bg_2.13fdf15a71842e751dc9.png",
     "static/media/auto.png": "/sintez/static/media/auto.c085c4d28712ae68b1bd.png",
@@ -36,16 +36,16 @@
     "static/media/fasade_02.jpg": "/sintez/static/media/fasade_02.ee9e76289bac0d4a1134.jpg",
     "index.html": "/sintez/index.html",
     "main.2aeedd45.css.map": "/sintez/static/css/main.2aeedd45.css.map",
-    "main.80c7948c.js.map": "/sintez/static/js/main.80c7948c.js.map",
+    "main.07468892.js.map": "/sintez/static/js/main.07468892.js.map",
     "485.5a4bd89d.chunk.js.map": "/sintez/static/js/485.5a4bd89d.chunk.js.map",
     "259.37ef7172.chunk.js.map": "/sintez/static/js/259.37ef7172.chunk.js.map",
-    "729.eadf2699.chunk.js.map": "/sintez/static/js/729.eadf2699.chunk.js.map",
+    "729.d037dd51.chunk.js.map": "/sintez/static/js/729.d037dd51.chunk.js.map",
     "377.76e82f11.chunk.css.map": "/sintez/static/css/377.76e82f11.chunk.css.map",
-    "377.f5e727d2.chunk.js.map": "/sintez/static/js/377.f5e727d2.chunk.js.map",
+    "377.e0a63c90.chunk.js.map": "/sintez/static/js/377.e0a63c90.chunk.js.map",
     "123.19d0570e.chunk.js.map": "/sintez/static/js/123.19d0570e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2aeedd45.css",
-    "static/js/main.80c7948c.js"
+    "static/js/main.07468892.js"
   ]
 }
