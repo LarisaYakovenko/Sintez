@@ -1,6 +1,6 @@
-import React from "react";
-import office from "../../images/fasade.jpg";
-import { Img } from "./Facade.styled";
+import React from 'react';
+import office from '../../images/fasade_02.jpg';
+import { Img } from './Facade.styled';
 
 const Facade = () => {
   return (

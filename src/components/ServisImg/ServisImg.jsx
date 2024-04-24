@@ -17,31 +17,33 @@ const ServisImg = () => {
   const age = newDay.getFullYear() - birthDay.getFullYear();
 
   return (
-    <Container>
-      <P>Ми лагодим Ваші улюблені гаджети вже {age} років</P>
-      <div>
-        <Table>
-          <div>
-            <p>графік роботи</p>
-          </div>
-          <Schedule>
-            <ul>
-              <Li>Пн</Li>
-              <Li>Вт</Li>
-              <Li>Ср</Li>
-              <Li>Чт</Li>
-              <Li>Пт</Li>
-              <Li>Сб</Li>
-              <Li>Нд</Li>
-            </ul>
+    <>
+      <Container>
+        <P>Ми лагодим Ваші улюблені гаджети вже {age} років</P>
+        <div>
+          <Table>
             <div>
-              <Time>10 - 17</Time>
-              <Free>Вихідний</Free>
+              <p>графік роботи</p>
             </div>
-          </Schedule>
-        </Table>
-      </div>
-    </Container>
+            <Schedule>
+              <ul>
+                <Li>Пн</Li>
+                <Li>Вт</Li>
+                <Li>Ср</Li>
+                <Li>Чт</Li>
+                <Li>Пт</Li>
+                <Li>Сб</Li>
+                <Li>Нд</Li>
+              </ul>
+              <div>
+                <Time>10 - 17</Time>
+                <Free>Вихідний</Free>
+              </div>
+            </Schedule>
+          </Table>
+        </div>
+      </Container>
+    </>
   );
 };
 

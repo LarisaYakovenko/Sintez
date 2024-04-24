@@ -2,16 +2,28 @@ import styled from 'styled-components';
 import backgroundImage from '../../images/bg-2.png';
 
 export const Container = styled.div`
+  overflow: auto;
+  max-width: 480px;
+  min-height: 100vh;
   /* margin-top: -200px; */
   /* min-height: 1000px; */
   /* background-repeat: no-repeat;
   justify-content: center; */
+
   flex-direction: column;
   overflow: auto;
+  background-repeat: no-repeat;
   padding-bottom: 150px;
   /* margin: 0 auto; */
 
   background-image: url(${backgroundImage});
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    min-width: 1900px;
+  }
 `;
 export const P = styled.p`
   width: 400px;

@@ -2,37 +2,37 @@
     {
         "id": 1,
         "title": "компьютерна техніка",
-        "image": "pc.png",
+        "image": "pc_02.png",
         "description": "ремонт, складання, модернізація, програмне забеспечення"
     },
     {
         "id": 2,
         "title": "планшети та смартфони",
-        "image": "tablete.png",
+        "image": "tablete_02.png",
         "description": "ремонт, калібрування екрану, заміна акамулятора"
     },
     {
         "id": 3,
         "title": "ноутбуки",
-        "image": "noute.png",
+        "image": "noute_02.png",
         "description": "ремонт, модернізація, програмне забеспечення"
     },
     {
         "id": 4,
         "title": "телевізори",
-        "image": "monitor.png",
+        "image": "monitor_02.png",
         "description": "ремонт телевізорів до 30'"
     },
     {
         "id": 5,
         "title": "кавомашини",
-        "image": "cafe.png",
+        "image": "cafe_02.png",
         "description": "ремонт, технічне обслуговування"
     },
     {
         "id": 6,
         "title": "автоелектроніка",
-        "image": "auto.png",
+        "image": "auto_02.png",
         "description": "ремонт"
     }
 ]
