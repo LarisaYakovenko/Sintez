@@ -22,14 +22,10 @@ export const Container = styled.div`
 export const Photo = styled.div`
   overflow: visible;
   width: 390px;
-
   display: flex;
-
   margin: 0 auto;
   margin-top: 30px;
-
   justify-content: center;
-
   flex-wrap: wrap;
   gap: 30px;
 
@@ -39,13 +35,11 @@ export const Photo = styled.div`
 
   @media screen and (min-width: 1440px) {
     width: 1400px;
-
     flex-direction: row;
-    margin: 0;
+    /* justify-content: center; */
+
     margin-top: 50px;
     flex-wrap: nowrap;
     gap: 60px;
-
-    /* margin: 50px 120px; */
   }
 `;

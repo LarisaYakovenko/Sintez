@@ -22,7 +22,7 @@ export const Container = styled.div`
   }
 
   @media screen and (min-width: 1440px) {
-    min-width: 1900px;
+    max-width: 100%;
   }
 `;
 export const P = styled.p`
