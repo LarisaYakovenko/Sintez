@@ -12,7 +12,7 @@ export const H2 = styled.h2`
   margin-top: 20px;
 `;
 export const Container = styled.div`
-  max-width: 480px;
+  /* max-width: 480px; */
   min-height: 100vh;
   padding: 20px 0;
   margin: 0 auto;

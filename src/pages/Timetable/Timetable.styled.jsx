@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin: 0 auto;
-  max-width: 480px;
+  /* max-width: 480px; */
   min-height: 100vh;
   overflow: auto;
   background-repeat: no-repeat;

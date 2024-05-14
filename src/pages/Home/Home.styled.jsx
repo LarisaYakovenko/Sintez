@@ -6,7 +6,7 @@ import backgroundImage from '../../images/bg-1.png';
 // `;
 export const Container = styled.div`
   overflow: auto;
-  max-width: 480px;
+  /* max-width: 480px; */
   min-height: 100vh;
   background-repeat: no-repeat;
   justify-content: center;
@@ -16,6 +16,7 @@ export const Container = styled.div`
 
   @media screen and (min-width: 768px) {
     max-width: 768px;
+    /* max-width: 100%; */
   }
 
   @media screen and (min-width: 1440px) {

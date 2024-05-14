@@ -18,32 +18,62 @@
 //   );
 // };
 
-import React, { Suspense } from 'react';
+import React, { Suspense, useState } from 'react';
 import { Outlet } from 'react-router-dom';
-import { Container, Item, List, StyleNavLink, Logo } from './Layout.styled';
+import { AiOutlineCloseCircle, AiOutlineFullscreen } from 'react-icons/ai';
+import {
+  Container,
+  Item,
+  List,
+  StyleNavLink,
+  Logo,
+  CloseButton,
+  ToggleButton,
+  Nav,
+} from './Layout.styled';
 import logo from '../../images/banner_tr.png';
 
 export const Layout = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <>
       <Container>
         <Logo>
           <img src={logo} alt="logo" width={400} />
         </Logo>
-        <List>
-          <Item>
-            <StyleNavLink to="/">головна</StyleNavLink>
-          </Item>
-          <Item>
-            <StyleNavLink to="/services">послуги</StyleNavLink>
-          </Item>
-          <Item>
-            <StyleNavLink to="/timetable">графік роботи</StyleNavLink>
-          </Item>
-          <Item>
-            <StyleNavLink to="/contacts">контакти</StyleNavLink>
-          </Item>
-        </List>
+        <Nav id="nav-menu" className={isMenuOpen ? 'show' : ''}>
+          <CloseButton>
+            <AiOutlineCloseCircle
+              name="close-circle-outline"
+              className="header__close"
+              onClick={toggleMenu}
+            ></AiOutlineCloseCircle>
+          </CloseButton>
+          <List>
+            <Item>
+              <StyleNavLink to="/">головна</StyleNavLink>
+            </Item>
+            <Item>
+              <StyleNavLink to="/services">послуги</StyleNavLink>
+            </Item>
+            <Item>
+              <StyleNavLink to="/timetable">графік роботи</StyleNavLink>
+            </Item>
+            <Item>
+              <StyleNavLink to="/contacts">контакти</StyleNavLink>
+            </Item>
+          </List>
+        </Nav>
+        <ToggleButton>
+          <AiOutlineFullscreen
+            name="menu-outline"
+            className="header__toggle"
+            onClick={toggleMenu}
+          ></AiOutlineFullscreen>
+        </ToggleButton>
       </Container>
       <Suspense>
         <Outlet />

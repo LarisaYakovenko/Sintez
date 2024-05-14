@@ -5,7 +5,7 @@ export const Container = styled.div`
   /* justify-content: center; */
   /* max-width: 1440px; */
   overflow: auto;
-  max-width: 480px;
+  /* max-width: 480px; */
   min-height: 100vh;
   margin: 0 auto;
   background-color: #abd2f1;
