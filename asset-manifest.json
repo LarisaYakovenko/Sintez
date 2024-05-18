@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sintez/static/css/main.2aeedd45.css",
-    "main.js": "/sintez/static/js/main.2daf4ab0.js",
-    "static/js/485.c7b72adb.chunk.js": "/sintez/static/js/485.c7b72adb.chunk.js",
+    "main.js": "/sintez/static/js/main.0e576daa.js",
+    "static/js/485.c926a16b.chunk.js": "/sintez/static/js/485.c926a16b.chunk.js",
     "static/js/259.397a31d9.chunk.js": "/sintez/static/js/259.397a31d9.chunk.js",
     "static/js/729.c34c6cfb.chunk.js": "/sintez/static/js/729.c34c6cfb.chunk.js",
     "static/css/377.76e82f11.chunk.css": "/sintez/static/css/377.76e82f11.chunk.css",
@@ -36,8 +36,8 @@
     "static/media/fasade_02.jpg": "/sintez/static/media/fasade_02.ee9e76289bac0d4a1134.jpg",
     "index.html": "/sintez/index.html",
     "main.2aeedd45.css.map": "/sintez/static/css/main.2aeedd45.css.map",
-    "main.2daf4ab0.js.map": "/sintez/static/js/main.2daf4ab0.js.map",
-    "485.c7b72adb.chunk.js.map": "/sintez/static/js/485.c7b72adb.chunk.js.map",
+    "main.0e576daa.js.map": "/sintez/static/js/main.0e576daa.js.map",
+    "485.c926a16b.chunk.js.map": "/sintez/static/js/485.c926a16b.chunk.js.map",
     "259.397a31d9.chunk.js.map": "/sintez/static/js/259.397a31d9.chunk.js.map",
     "729.c34c6cfb.chunk.js.map": "/sintez/static/js/729.c34c6cfb.chunk.js.map",
     "377.76e82f11.chunk.css.map": "/sintez/static/css/377.76e82f11.chunk.css.map",
@@ -46,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.2aeedd45.css",
-    "static/js/main.2daf4ab0.js"
+    "static/js/main.0e576daa.js"
   ]
 }
